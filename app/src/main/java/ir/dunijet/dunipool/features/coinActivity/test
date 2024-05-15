@@ -1,0 +1,5 @@
+ if (dataThisCoin.coinInfo.fullName == "BUSD") {
+            binding.layoutChart.txtChartChange2.text = "0%"
+        } else {
+            binding.layoutChart.txtChartChange2.text = dataThisCoin.rAW.uSD.cHANGEPCT24HOUR.toString().substring(0, 5) + "%"
+        }
